@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 2em;
+    background-color: #bfb8b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  body:before {
+    content: '';
+    background-color: d2cec9;
+    width: 30%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+  }
+  
+  h1 {
+    font-style: italic;
+    color: #373fff;
+  }
+  .clock{
+    background-color: #968e85;
+    PADDING: 48px;
+    border-radius: 12px ;
+  }
+  
+  p {
+    font-size: 5rem;
+    color: #fff;
+    font-size:130px;
+    font-weight: 300;
+  }
